@@ -306,6 +306,9 @@ h6 { font-size: 16px;}
 	text-align: center;
 }
 
+.social-links a{
+	font-size: 18px;
+}
 #social_img{
 	width: 100%;
 }
@@ -451,8 +454,7 @@ h6 { font-size: 16px;}
 	}
 
 	#preview{
-		width: 280px;
-
+		width: 260px;
 	}
 
 }
