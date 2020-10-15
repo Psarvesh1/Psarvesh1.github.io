@@ -459,5 +459,28 @@ h6 { font-size: 16px;}
 
 }
 
+@media screen and (max-width: 350px){
+	#preview-shadow{
+		max-width: 260px;
+		height: 180px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
 
+	#preview{
+		width: 240px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+	#preview-shadow{
+		max-width: 300px;
+		height: 180px;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	#preview{
+		width: 280px;
+	}
+}
 

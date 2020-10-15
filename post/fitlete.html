@@ -11,18 +11,28 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="default.css">
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
 
 
 	<style type="text/css">
 		.img-container {
-			max-width: 600px;
-			display: flex;
-			justify-items: space-between;
-		}
-
-		img {
-			width: 100%
+            max-width: 600px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+       img {
+            width: 40%;
+            margin: 1rem 2rem;
+        }
+        @media screen and (max-width: 600px){
+			.img-container{
+                flex-direction: column;
+                align-content: center;
+            }
+            img {
+            width: 80%;
+        }
 		}
 	</style>
 
@@ -32,7 +42,7 @@
 	<div class="nav-wrapper">
 
 		<!-- Link around dots-wrapper added after tutorial video -->
-		<a href="index.html">
+		<a href="../index.html#post">
 			<div class="dots-wrapper">
 				<div id="dot-1" class="browser-dot"></div>
 				<div id="dot-2" class="browser-dot"></div>
@@ -41,7 +51,7 @@
 		</a>
 
 		<ul id="navigation">
-			<li><a href="index.html#contact">Contact</a></li>
+			<li><a href="../index.html#contact">Contact</a></li>
 
 		</ul>
 	</div>
@@ -50,7 +60,7 @@
 		<br>
 
 		<div class="img-container">
-			<img src="images/Fitlete/Fitlete-home.png">
+			<img style="width: 100%; margin: 0" src="../images/Fitlete/Fitlete-home.png">
 		</div>
 
 		<h3>Fitlete</h3>
@@ -94,41 +104,17 @@ an android/ios app with computer vision. The app is up and running live on plays
 
 		<h5>Screenshots:</h5>
 		<div class="img-container">
-			<div>
-				<img style="width: 90%;" src="images/Fitlete/Login.jpg">
-			</div>
-			<div>
-				<img style="width: 90%;" src="images/Fitlete/exercise.jpg">
-			</div>
+				<img src="../images/Fitlete/Login.jpg">
+				<img src="../images/Fitlete/exercise.jpg">
+				<img  src="../images/Fitlete/fitlete-1.jpg">
+				<img  src="../images/Fitlete/fitlete-2.jpg">
 		</div>
-		<div class="img-container" style="margin-top: 50px;">
-			<div>
-				<img style="width: 90%;" src="images/Fitlete/fitlete-1.jpg">
-			</div>
-			<div>
-				<img style="width: 90%;" src="images/Fitlete/fitlete-2.jpg">
-			</div>
+		<div class="img-container">
+			<img  src="../images/Fitlete/fitlete-3.jpg">
+			<img  src="../images/Fitlete/fitlete-4.jpg">
+			<img  src="../images/Fitlete/fitlete-2.jpg">
+			<img  src="../images/Fitlete/fitlete-3.jpg">
 		</div>
-		<div class="img-container" style="margin-top: 50px;">
-			<div>
-				<img style="width: 90%;" src="images/Fitlete/fitlete-3.jpg">
-			</div>
-			<div>
-				<img style="width: 90%;" src="images/Fitlete/fitlete-4.jpg">
-			</div>
-		</div>
-
-		<div class="img-container" style="margin-top: 50px;">
-			<div>
-				<img style="width: 90%;" src="images/Fitlete/fitlete-2.jpg">
-			</div>
-			<div>
-				<img style="width: 90%;" src="images/Fitlete/fitlete-3.jpg">
-			</div>
-		</div>
-
-
-
 	</div>
 
 </body>
