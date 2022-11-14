@@ -482,7 +482,7 @@ h6 { font-size: 16px;}
 	}
 }
 
-@media (min-width: 400px) and (max-width: 600px){
+@media (min-width: 375px) and (max-width: 600px){
 	#preview-shadow{
 		max-width: 300px;
 		height: 180px;
@@ -491,6 +491,9 @@ h6 { font-size: 16px;}
 	}
 	#preview{
 		width: 280px;
+	}
+	.icons{
+		width: 40%;
 	}
 }
 
