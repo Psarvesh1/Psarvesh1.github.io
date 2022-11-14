@@ -421,7 +421,17 @@ h6 { font-size: 16px;}
 	background-color: var(--buttonColor);
 	border:none;
 }
-
+.social{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+.icons{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 10%;
+}
 
 @media screen and (max-width: 1200px){
 	.main-container{
